@@ -1,0 +1,9 @@
+link rel=apple-touch-icon sizes=180x180 href=resfaviconslogocapple-touch-icon.png
+link rel=icon type=imagepng sizes=32x32 href=resfaviconslogocfavicon-32x32.png
+        link rel=icon type=imagepng sizes=16x16 href=resfaviconslogocfavicon-16x16.png
+        link rel=manifest href=resfaviconslogocsite.webmanifest
+        link rel=mask-icon href=resfaviconslogocsafari-pinned-tab.svg color=#5bbad5
+        link rel=shortcut icon href=resfaviconslogocfavicon.ico
+        meta name=msapplication-TileColor content=#da532c
+        meta name=msapplication-config content=resfaviconslogocbrowserconfig.xml
+        meta name=theme-color content=#ffffff
