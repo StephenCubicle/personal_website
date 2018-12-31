@@ -68,8 +68,8 @@ a {
 .para {
     font-size: 20px;
     letter-spacing: 1px;
-    word-spacing: 4px;
     margin-top: 20px;
+    text-align: justify;
 }
 
 .bDash{
