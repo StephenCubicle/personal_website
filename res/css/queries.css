@@ -13,7 +13,7 @@
 @media only screen and (max-width: 1023px) {
     body { font-size: 18px; }
     h1 { font-size: 55px; }
-    .socials { font-size: 150% }
+    .socials { font-size: 200% }
 }
 
 
@@ -23,8 +23,6 @@
     body { font-size: 16px; }
     
     h1 { font-size: 48px; }
-    
-    .para { font-size: 18px; }
     
     .row
     { padding: 0 4%; }
@@ -38,7 +36,7 @@
     
     .logo { height: 75px; }
 
-    .socials { font-size: 140%; }
+    .socials { font-size: 200%; }
     
 }
 
@@ -48,18 +46,16 @@
     
     h1 { font-size: 40px; }
     
-    .para { font-size: 90%; }
-    
     .logo { height: 50px; }
     
     .main-nav { margin-top: 35px; }
     
     .main-nav li { 
         margin-left: 20px;
-        font-size: 80%;
+        font-size: 100%;
     }
     
-    .socials { font-size: 125%;}
+    .socials { font-size: 200%;}
 
 }
 
