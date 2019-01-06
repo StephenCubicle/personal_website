@@ -85,6 +85,10 @@ a {
 /* HEADER */
 /* --------------------------------- */
 
+header {
+    margin-bottom: 350px;
+}
+
 .intro {
     text-align: center;
     margin-top: 250px;
@@ -150,7 +154,7 @@ a {
 /* --------------------------------- */
 
 .section-about {
-    margin-top: 300px;
+    background-color: #f8f8f8;
 }
 
 .box {
