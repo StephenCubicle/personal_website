@@ -1,10 +1,12 @@
 /* Big tablets to 1300px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
     .intro {
-    width: 100%;
-    padding: 0 2%;
+        width: 100%;
+        padding: 0 2%;
     }
-
+    
+    .intro img{ max-width: 30%; }
+    
     .row { padding: 0 2%; }
 }
 
@@ -13,7 +15,11 @@
 @media only screen and (max-width: 1023px) {
     body { font-size: 18px; }
     h1 { font-size: 55px; }
-    .socials { font-size: 200% }
+     header { margin-bottom: 70px;}
+    .intro { margin-top: 70px; }
+    .intro img{ max-width: 35%; }
+    
+    .socials { font-size: 200%; }
 }
 
 
@@ -23,12 +29,15 @@
     body { font-size: 16px; }
     
     h1 { font-size: 48px; }
+    header { margin-bottom: 130px;}
+    .intro { margin-top: 130px; }
+    .intro img{ max-width: %; }
     
     .row
     { padding: 0 4%; }
      
     .col { 
-        width: 100%; 
+        width: 33%; 
         margin: 0 0 4% 0;
     }
     
@@ -45,10 +54,15 @@
 @media only screen and (max-width: 480px) {
     
     h1 { font-size: 40px; }
+    header { margin-bottom: 155px;}
+    .intro { margin-top: 155px; }
+    .intro img{ max-width: 50%; }
     
     .logo { height: 50px; }
     
     .main-nav { margin-top: 35px; }
+    
+    .col { width: 50%; }
     
     .main-nav li { 
         margin-left: 20px;
