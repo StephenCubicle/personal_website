@@ -33,11 +33,12 @@
     </head>
     
     <body>
-        <header>
+        <header id = "home">
             <nav>
                 <div class = "row">
-                    <a href ="index.html"><img src = "res/img/logocb.png" alt = "SC logo" class = "logo"></a>
-                    <ul class = "main-nav">
+                    <a class = "mobile-nav-icon js--nav-icon"><i class="fas fa-bars"></i></a>
+                    <a href ="#home"><img src = "res/img/logocb.png" alt = "SC logo" class = "logo"></a>
+                    <ul class = "main-nav js--main-nav">
                         <li><a href = "#about">ABOUT</a></li>
                         <li><a href = "#skills">SKILLS</a></li>
                         <li><a href = "#projects">PROJECTS</a></li>
@@ -46,8 +47,7 @@
                 </div>    
             </nav>
             
-            <div class = "intro">
-
+            <div class = "intro js--wp-1">
                 <h1><b class = "clap">👏</b><b> Hey, I'm Stephen! </b><b class = "clap">👏</b></h1>
                 <div class = "row">
                     <ul class = "socials">
@@ -57,15 +57,15 @@
                     </ul>
                 </div>
             </div>
-
             
+            <a href = "#about" class = "arrow animated bounce infinite"><i class="fas fa-caret-down"></i></a>
         
         </header>
         
-        <section class = "section-about" id ="about">
+        <section class = "section-about js--section-about" id ="about">
             <div class = "row">
                 <h2><b class = "bDash">&mdash;</b> About <b class = "bDash">&mdash;</b></h2>
-                <div class = "row">
+                <div class = "row js--wp-2">
                     <h3>👨‍💻  me.</h3>
                     <p class = "para box">I am a student studying Computer Engineering at the University of Ottawa. I enjoy solving many different complex problems and I am also interested in artificial intelligence and blockchain technology.
                         
@@ -84,7 +84,7 @@
                 <h2><b class = "bDash">&mdash;</b> Skills <b class = "bDash">&mdash;</b></h2>
             </div>
             
-            <div class = "row">
+            <div class = "row js--wp-3">
                 <div class = "col span-1-of-6 skills-box"><img src = "ven/img/java.png" alt = "java"></div>
                 <div class = "col span-1-of-6 skills-box"><img src = "ven/img/python.png" alt = "python"></div>
                 <div class = "col span-1-of-6 skills-box"><img src = "ven/img/html5.png" alt = "html5"></div>
@@ -100,7 +100,7 @@
             </div>
             
             <div class = "row">
-                <div class = "col span-1-of-2 proj-website"><img src = "res/img/website-project.png" alt = "website"></div>
+                <div class = "col span-1-of-2 proj-website js--wp-4"><img src = "res/img/website-project.png" alt = "website"></div>
                 <div class = "col span-1-of-2 proj-box">
                     <h4>Personal Website</h4>
                     <p class = "para">
@@ -116,13 +116,13 @@
                 <div class = "col span-1-of-2 proj-box">
                     <h4>Repairify</h4>
                     <p class = "para">
-                        This app was created as a term-project for my 2nd year course: Introduction to Software Engineering. The application allows an admin to create services where service providers can list their availabilities from a list of services to homeowners. Homeowners can then schedule a service provider from specific search queries.
+                        This app was created as a term-project with a group for my 2nd year course: Introduction to Software Engineering. The application allows an admin to create services where service providers can list their availabilities from a list of services to homeowners. Homeowners can then schedule a service provider from specific search queries.
                     </p>
                     <p class = "lang">
                         <i>Java / SQLite <br>Android Studio / Photoshop / Illustrator</i>
                     </p>
                 </div>
-                <div class = "col span-1-of-2 proj-repairifyfull"><img src = "res/img/app-repairifyfull.png"></div>
+                <div class = "col span-1-of-2 proj-repairifyfull js--wp-4"><img src = "res/img/app-repairifyfull.png"></div>
             </div>
 
         </section>
