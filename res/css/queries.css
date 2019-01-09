@@ -1,11 +1,17 @@
-/* Big tablets to 1300px (widths smaller than the 1140px row) */
+/* Big screen to 1500px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1600px) {
+    
+    h1 { font-size: 60px; }
+    
+}
+
+
+/* Big tablets to big screen (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
     .intro {
         width: 100%;
         padding: 0 2%;
     }
-    
-    .intro img{ max-width: 30%; }
     
     .row { padding: 0 2%; }
 }
@@ -14,10 +20,9 @@
 /* Small tablets to big tablets: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     body { font-size: 18px; }
-    h1 { font-size: 55px; }
-     header { margin-bottom: 70px;}
-    .intro { margin-top: 70px; }
-    .intro img{ max-width: 35%; }
+    h1 { font-size: 50px; }
+
+    .intro img{ max-width: 53%; }
     
     .socials { font-size: 200%; }
 }
@@ -29,9 +34,8 @@
     body { font-size: 16px; }
     
     h1 { font-size: 48px; }
-    header { margin-bottom: 130px;}
-    .intro { margin-top: 130px; }
-    .intro img{ max-width: %; }
+
+    .intro img{ max-width: 65%; }
     
     .row
     { padding: 0 4%; }
@@ -53,10 +57,9 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     
-    h1 { font-size: 40px; }
-    header { margin-bottom: 155px;}
-    .intro { margin-top: 155px; }
-    .intro img{ max-width: 50%; }
+    h1 { font-size: 35px; }
+
+    .intro img{ max-width: 75%; }
     
     .logo { height: 50px; }
     

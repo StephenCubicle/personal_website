@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: 500;
     font-size: 230%;
     letter-spacing: -3px;
@@ -77,10 +77,11 @@ a {
 }
 
 .para {
+    line-height: 120%;
     font-size: 20px;
     letter-spacing: 1px;
     word-spacing: 4px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .bDash{
@@ -92,19 +93,22 @@ a {
 /* --------------------------------- */
 
 header {
-    margin-bottom: 50px;
+    height: 100vh;
 }
 
 .intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 40px;
 }
 
 .intro img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 25%;
+    max-width: 70%;
     border-radius: 10%;
 }
 
@@ -133,7 +137,7 @@ header {
     color: #2e86de;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.3s, color 0.3s;
 }
 
 .main-nav li a:hover,
@@ -155,7 +159,8 @@ header {
 
 .socials li a:link,
 .socials li a:visited {
-    transition: color 0.2s;
+    color: #7e7e7e;
+    transition: color 0.3s;
 }
 
 .socials li a:hover,
@@ -168,7 +173,7 @@ header {
 /* --------------------------------- */
 
 .section-about {
-    background-color: #f8f8f8;
+    background-color: #efefef;
 }
 
 .box {
@@ -194,5 +199,5 @@ header {
 /* --------------------------------- */
 
 .section-projects {
-    background-color: #f8f8f8;
+    background-color: #efefef;
 }
