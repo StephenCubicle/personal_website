@@ -49,6 +49,16 @@ h1 {
     word-spacing: 5px;
 }
 
+h1:after {
+    display: block;
+    height: 4px;
+    background-color: #2e86de;
+    content: " ";
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
 h2 {
     margin-bottom: 40px;
     font-weight: 500;
@@ -66,6 +76,13 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-weight: 700;
+    font-size: 125%;
+    margin-bottom: 15px;
+}
+
+
 ul {
     list-style: none;
 }
@@ -77,9 +94,8 @@ a {
 }
 
 .para {
-    line-height: 120%;
+    line-height: 140%;
     font-size: 20px;
-    letter-spacing: 1px;
     word-spacing: 4px;
     margin-bottom: 40px;
 }
@@ -93,6 +109,9 @@ a {
 /* --------------------------------- */
 
 header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(240, 240, 240, 0.5)), url(img/trianglify.svg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -134,7 +153,7 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 2px 0;
-    color: #2e86de;
+    color: #103a63;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s, color 0.3s;
@@ -142,8 +161,8 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active{
-    color: #103a63;
-    border-bottom: 2px solid #103a63;
+    color: #2e86de;
+    border-bottom: 2px solid #2e86de;
 }
 
 .socials {
@@ -159,7 +178,7 @@ header {
 
 .socials li a:link,
 .socials li a:visited {
-    color: #7e7e7e;
+    color: rgba(6, 24, 41, 0.8);
     transition: color 0.3s;
 }
 
@@ -173,7 +192,7 @@ header {
 /* --------------------------------- */
 
 .section-about {
-    background-color: #efefef;
+    background-color: #fafafa;
 }
 
 .box {
@@ -182,6 +201,10 @@ header {
 
 .box p {
     margin-top: 20%;
+}
+
+.last-p{
+    margin-bottom: 0;
 }
 
 /* --------------------------------- */
@@ -199,5 +222,32 @@ header {
 /* --------------------------------- */
 
 .section-projects {
-    background-color: #efefef;
+    background-color: #fafafa;
+}
+
+.proj-website img {
+    width: 95%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.proj-repairifyfull img {
+    transform: translate(10%, 0%);
+    width: 80%;
+}
+
+/* --------------------------------- */
+/* FOOTER */
+/* --------------------------------- */
+
+footer {
+    background-color: #061829;
+
+    font-size: 80%;
+}
+
+.foot {
+    margin: 20px 0;
+    text-align: center;
+    color: #ffffff;
 }
