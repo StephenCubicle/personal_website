@@ -274,17 +274,8 @@ header {
     background-color: #fafafa;
 }
 
-.proj-website img {
-    width: 95%;
-    height: auto;
-    margin-bottom: 40px;
-}
+.proj-box img{ width: 100%;}
 
-.proj-repairifyfull img {
-    -webkit-transform: translate(10%, 0%);
-    transform: translate(10%, 0%);
-    width: 80%;
-}
 
 /* --------------------------------- */
 /* FOOTER */
@@ -292,7 +283,6 @@ header {
 
 footer {
     background-color: #061829;
-
     font-size: 80%;
 }
 
