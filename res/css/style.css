@@ -289,6 +289,12 @@ header {
     text-align: center;
 }
 
+.work-tools {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
 .work-box img {
     display: block;
     margin: 0 auto;
@@ -305,6 +311,16 @@ header {
 /* --------------------------------- */
 
 .proj-box img{ width: 100%;}
+
+.brsmall { 
+    display: block;
+    margin: 10px 0;
+}
+
+.proj-lang {
+    line-height: 150%;
+    color: white;
+}
 
 
 /* --------------------------------- */
