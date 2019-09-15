@@ -266,13 +266,43 @@ header {
     margin-bottom: 15px;
 }
 
+.skills-box-2 img {
+    width: 100%;
+    margin: auto;    
+    display: block;
+    margin-bottom: 15px;
+}
+
+.skills-box p {
+    text-align: center;
+}
+/* --------------------------------- */
+/* WORK */
+/* --------------------------------- */
+
+.section-work {
+    background-color: #fafafa;
+}
+
+.work-caption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.work-box img {
+    display: block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
 /* --------------------------------- */
 /* PROJECTS */
 /* --------------------------------- */
-
-.section-projects {
-    background-color: #fafafa;
-}
 
 .proj-box img{ width: 100%;}
 
